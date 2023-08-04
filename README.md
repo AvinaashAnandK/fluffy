@@ -5,7 +5,9 @@
 
 <p align="center"><img src="https://github.com/AvinaashAnandK/fluffy/blob/main/Fluffy_wb.png" width="200" height="200" /></p>
 
-Fluffy aims to simplify the development process by reducing boilerplate code & infrastructure setup that devs need to handle while integrating open-source AI models into their applications to address problems they encounter while solving for their core business logic. 
+Fluffy aims to simplify the development process by reducing boilerplate code & infrastructure setup that devs need to handle while integrating open-source ML models into their applications to address problems they encounter while solving for their core business logic. 
+
+Fluffy allows you treat open-source models like legos, mix-and-match to achieve the desired outcome, without worrying about the ops side of things!
 
 ## Context:
 - Current platforms like 'Papers with Code' or 'Hugging Face' primarily cater to Data Scientists and ML engineers. They are excellent at training, optimizing, and deploying models. 
@@ -17,7 +19,7 @@ Fluffy aims to simplify the development process by reducing boilerplate code & i
 
 ## Work so far:
 
-- [X] Understand the data: Created a database of open source models from [HuggingFace](https://huggingface.co/), [Papers With Code](https://paperswithcode.com/) and other research labs such as [AI4Bharat](https://github.com/AI4Bharat)
+- [X] Understand the data: Created a database of open-source models from [HuggingFace](https://huggingface.co/), [Papers With Code](https://paperswithcode.com/) and other research labs such as [AI4Bharat](https://github.com/AI4Bharat)
 - [X] Build a semantic search model [using SBERT](https://www.sbert.net/) to match business use-cases to open Source models
     + Was unable to throw relevant results for search terms like "Detect blured images in documents", "Compress heavy audio files to support upload from low latency networks" and 'Identify profanity in hinglish texts' from the alpha test users. 
 - [X] Refine the retrival model using [Generative Pseudo Labelling](https://github.com/AvinaashAnandK/GPL-Walkthrough) on a corpus of relevant text (e.g. articles from Towards Data Science and other blogs on data science) and evaluate against baseline model
@@ -25,5 +27,8 @@ Fluffy aims to simplify the development process by reducing boilerplate code & i
 - [X] Use Retrieval Augmented Generation (RAG) to provide users with relevant search results
     + Showed a significant improvement over baseline for alpha test users.
 - [X] Test the feasibility of a python decorator package that wraps input functions to perform the desired task
-    + Succesfully built a prototype for text extraction & machine translation tasks for an input function which takes in text / image input
-- [X] [In Progress] Build 
+    + Succesfully built a prototype for text extraction & machine translation tasks for an input function which takes in text / image as user input
+
+## Coming soon:
+- [ ] [In Progress] Use [Skeleton-of-Thought](https://arxiv.org/abs/2307.15337) approach to piece together base models that can be sequentially connected to address a user's business problem
+- [ ] Dynamically create decorators that abstracts the deployment and connects the identified base models 
