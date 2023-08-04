@@ -1,6 +1,6 @@
 # Fluffy
 ![]()
-<p align="center">🚧 <img src="https://img.shields.io/badge/under%20construction-FF8C00" /></a>🚧</p>
+<p align="center">🚧  <img src="https://img.shields.io/badge/under%20construction-FF8C00" /></a>  🚧</p>
 
 <p align="center"><img src="https://github.com/AvinaashAnandK/fluffy/blob/main/Fluffy_wb.png" width="200" height="200" /></p>
 
