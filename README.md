@@ -12,12 +12,12 @@ dead ends in the codebase. It is not production-grade yet for ANY definition of 
 Fluffy aims to simplify the development process by reducing boilerplate code & infrastructure setup that devs need to handle while integrating open-source AI models into their applications to address problems they encounter while solving for their core business logic. 
 
 ## Context:
-- [X] Current platforms like 'Papers with Code' or 'Hugging Face' primarily cater to Data Scientists and ML engineers. They are excellent at training, optimizing, and deploying models. 
-- [X] However, for engineers, Product Managers, or technical founders, the process of finding, understanding, and quickly deploying the right models can be quite challenging.
+- Current platforms like 'Papers with Code' or 'Hugging Face' primarily cater to Data Scientists and ML engineers. They are excellent at training, optimizing, and deploying models. 
+- However, for engineers, Product Managers, or technical founders, the process of finding, understanding, and quickly deploying the right models can be quite challenging.
     + Try searching for PAN number extraction from PAN card image on Google / Bing or Hugging Face, you would find it incredibly difficult to arrive at named entity recognition + OCR as one of the approaches for the question at hand
-- [X] This need for efficient model deployment is common, both in early-stage startups & in larger orgs.
-    + In early-stage startups engineers might lack specific data science experience
-    + In larger companies certain data science initiatives might be deprioritized due to the organization's broader focus.
+- This need for efficient model deployment is common, both in early-stage startups & in larger orgs.
+    + In early-stage startups, engineers might lack specific data science experience
+    + In larger companies, certain data science initiatives might be deprioritized due to the organization's broader focus.
 
 ## Work so far:
 
