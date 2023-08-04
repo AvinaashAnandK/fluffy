@@ -6,7 +6,7 @@
 
 Fluffy aims to simplify the development process by reducing boilerplate code & infrastructure setup that devs need to handle while integrating open-source ML models into their applications to address problems they encounter while solving for their core business logic. 
 
-Fluffy allows you treat open-source models like legos, mix-and-match to achieve the desired outcome, without worrying about the ops side of things!
+#### Fluffy allows you treat open-source models like legos, mix-and-match to achieve the desired outcome, without worrying about the ops side of things!
 
 ## Context:
 - Current platforms like 'Papers with Code' or 'Hugging Face' primarily cater to Data Scientists and ML engineers. They are excellent at training, optimizing, and deploying models. 
